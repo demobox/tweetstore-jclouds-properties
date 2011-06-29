@@ -25,7 +25,7 @@
     <parent>
         <artifactId>jclouds-project</artifactId>
         <groupId>org.jclouds</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.1.0-SNAPSHOT</version>
     </parent>    
     <artifactId>jclouds-demos-tweetstore-jclouds-properties</artifactId>
     <name>TweetStore jclouds.properties</name>
