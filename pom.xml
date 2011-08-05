@@ -25,9 +25,11 @@
     <parent>
         <artifactId>jclouds-project</artifactId>
         <groupId>org.jclouds</groupId>
-        <version>1.1.0-SNAPSHOT</version>
+        <version>1.2.0-SNAPSHOT</version>
     </parent>    
     <artifactId>jclouds-demos-tweetstore-jclouds-properties</artifactId>
+    <!-- the properties are likely to remain static, do not need to be versioned in lockstep with jclouds -->
+    <version>1</version>
     <name>TweetStore jclouds.properties</name>
     <description>jclouds.properties file for instances of TweetStore</description>
 
