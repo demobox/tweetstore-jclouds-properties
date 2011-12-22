@@ -29,7 +29,7 @@
     </parent>    
     <artifactId>jclouds-demos-tweetstore-jclouds-properties</artifactId>
     <!-- the properties are likely to remain static, do not need to be versioned in lockstep with jclouds -->
-    <version>1</version>
+    <version>2</version>
     <name>TweetStore jclouds.properties</name>
     <description>jclouds.properties file for instances of TweetStore</description>
 
