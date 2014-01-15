@@ -31,7 +31,7 @@
     <groupId>org.jclouds.tweetstore</groupId>
     <artifactId>jclouds-demos-tweetstore-jclouds-properties</artifactId>
     <!-- the properties are likely to remain static, do not need to be versioned in lockstep with jclouds -->
-    <version>3</version>
+    <version>4</version>
     <name>TweetStore jclouds.properties</name>
     <description>jclouds.properties file for instances of TweetStore</description>
 
