@@ -64,7 +64,7 @@
             </plugin>
             <plugin>
                 <artifactId>maven-remote-resources-plugin</artifactId>
-                <version>1.2</version>
+                <version>1.5</version>
                 <executions>              
                     <execution>
                         <id>bundle-jclouds-properties</id>
@@ -108,9 +108,8 @@
                         <configuration>
                             <file>${project.build.directory}/${project.build.finalName}.${project.packaging}</file>
                             <pomFile>pom.xml</pomFile>
-                            <!-- hacking the 'classifier' into the version until the remote resources plugin supports classifiers -->
-                            <version>${project.version}-${tweetstore.instance}</version>
-                            <!--classifier>${tweetstore.instance}</classifier-->
+                            <version>${project.version}</version>
+                            <classifier>${tweetstore.instance}</classifier>
                         </configuration>
                     </execution>
                 </executions>
@@ -134,9 +133,8 @@
                             <url>${project.distributionManagement.repository.url}</url>
                             <file>${project.build.directory}/${project.build.finalName}.${project.packaging}</file>
                             <pomFile>pom.xml</pomFile>
-                            <!-- hacking the 'classifier' into the version until the remote resources plugin supports classifiers -->
-                            <version>${project.version}-${tweetstore.instance}</version>
-                            <!--classifier>${tweetstore.instance}</classifier-->
+                            <version>${project.version}</version>
+                            <classifier>${tweetstore.instance}</classifier>
                         </configuration>
                     </execution>
                 </executions>
